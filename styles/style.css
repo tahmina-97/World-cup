@@ -28,7 +28,7 @@ main{
     background-color: #161616;
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 40px;
     margin-bottom: 130px;
     border-radius: 30px;
 }
@@ -75,7 +75,7 @@ main{
     
 }
 
-/* --------------- blog section styling ------------ */
+/* --------------- middle section styling ------------ */
 
 
 .blog-container{
@@ -121,15 +121,18 @@ main{
     background-color: #DD0000;
     color: #FFFFFF;
 }
-.blog{
-    border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-}
+
+/* ************** Blog styling *************** */
+
 .blogs{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3,362px);
     grid-gap: 24px;
+}
+.blog{
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .blog-content{
@@ -158,6 +161,49 @@ main{
 
 .time{
     margin-right: 17px;
+}
+
+/* ************** upcoming matches styling *************** */
+
+.matches{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3,242px);
+    grid-gap: 24px;
+}
+
+.match{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    text-align: center;
+    padding: 53px 30px;
+}
+.match-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.match-img span{
+    font-size: 16px;
+    font-weight: 700;
+    color: #161616;
+    margin: 0 20px;
+}
+.match-content .match-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #161616;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+.match-content .match-info{
+    font-size: 16px;
+    font-weight: 400;
+    color: #4D4D4D;
 }
 
 /* -----------footer styling--------------- */
