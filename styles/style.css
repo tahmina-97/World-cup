@@ -76,6 +76,9 @@ main{
     height: 100%;
     
 }
+.btn-primary i{
+    margin-left: 6px;
+}
 .btn-primary:hover{
     transform: scaleX(1.1);
 }
