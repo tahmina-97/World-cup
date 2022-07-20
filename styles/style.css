@@ -63,6 +63,7 @@ main{
     background-color: #DD0000;
     padding: 16px 25px;
     border-radius: 5px;
+    cursor: pointer;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -93,6 +94,7 @@ main{
     margin-bottom: 130px;
    
 }
+
 
 .link-container{
     background-color: #161616;
@@ -213,6 +215,22 @@ main{
     font-size: 16px;
     font-weight: 400;
     color: #4D4D4D;
+}
+
+
+.btn-secondary{
+    display: none;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    background-color: #DD0000;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    left: 45%;
+    bottom: 50px;
 }
 
 /* -----------footer styling--------------- */
@@ -473,6 +491,10 @@ footer hr{
         padding: 17px 0;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
         margin: 0 10px;
+    }
+
+    .btn-secondary{
+        display: inline-block;
     }
 
    footer{
