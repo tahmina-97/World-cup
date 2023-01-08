@@ -299,6 +299,7 @@ footer hr{
         margin-bottom: 0;
         flex-direction: column;
         border-radius: 10px;
+        overflow: hidden;
     }
 
     .header-container .header-content{
